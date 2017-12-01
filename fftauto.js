@@ -8,29 +8,29 @@ const inquirer = require('inquirer');
 const User = [
 	{
 		type:'input',
-		name:'username',
-		message:'Insert Username'
+		name:'kolambaper',
+		message:'kolambaper'
 	},
 	{
-		type:'password',
-		name:'password',
-		message:'Insert Password',
+		type:'katasandiuy',
+		name:'katasandiuy',
+		message:'katasandiuy',
 		mask:'*'
 	},
 	{
 		type:'input',
-		name:'target',
-		message:'Insert Username Target (Without @[at])'
+		name:'raffinagita1717',
+		message:'raffinagita1717'
 	},
 	{
 		type:'input',
 		name:'text',
-		message:'Insert Text Comment 1 (Gunakan Pemisah [|] bila lebih dari 1)'
+		message:'follow back gan|follow back lur'
 	},
 	{
 		type:'input',
 		name:'sleep',
-		message:'Insert Sleep (In MiliSeconds)',
+		message:'10000',
 		validate: function(value){
 			value = value.match(/[0-9]/);
 			if (value) return true;
